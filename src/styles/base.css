@@ -1,0 +1,90 @@
+html {
+  box-sizing:border-box;
+}
+
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+
+#main-container {
+  width: 1000px;
+  margin: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#today-container {
+  width: 1000px;
+  border: 1px solid gray;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#today-container h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.location {
+  font-size: 30px;
+  margin: 0;
+  color: gray;
+}
+
+.time-desc {
+  margin: 0;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: gray;
+}
+
+.temp {
+  font-size: 80px;
+  margin: 10px 0px 20px 0px;
+}
+
+.temp span {
+  font-size: 20px;
+}
+
+.three-hour{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between
+}
+
+.three-hour p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.five-days {
+  width: 1000px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.five-days button{
+  width: 100px;
+  height: 30px;
+  margin-right: 50px;
+  border: none;
+  font-size: 18px;
+  outline: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.five-days button:hover {
+  color: rgb(228, 207, 17);
+  text-decoration: underline;
+  text-decoration-color: rgb(228, 207, 17);
+}
